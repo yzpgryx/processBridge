@@ -6,7 +6,8 @@ RM = rm
 
 CFLAGS += -Wall -I./src
 
-SRCS = ./src/process_bridge.c
+SRCS = ./src/process_bridge.c \
+	   ./src/msg_queue.c
 
 OBJS = $(SRCS:.c=.o)
 

@@ -5,8 +5,6 @@
 extern "C" {
 #endif
 
-#include <pthread.h>
-
 #define PB_E_INVALID_PARAMETER  -1
 #define PB_E_OUT_OF_MEMORY      -2
 #define PB_E_KERNEL             -3
